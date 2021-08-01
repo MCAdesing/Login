@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1eed3a0f50.js" crossorigin="anonymous"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <link rel="shortcut icon" href="/img/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login - User</title>
+</head>
+<body>
+    <div class="cajas caja1"></div>
+    <div class="cajas caja2"></div>
+    <div class="cajas caja3"></div>
+    <div class="cajas caja4"></div>
+    <div class="cajas caja5"></div>
+<div class="contenedor">
+    <h1 id="titulo">login</h1>
+    <form class="form-login" id="form-login">
+        <i class="fas fa-user"></i>
+        <input class="inputs" type="text" name="usuario" placeholder="Usuario" autocomplete="off">
+        <i class="fas fa-unlock"></i>
+        <input class="inputs" type="password" name="contraseña" placeholder="Contraseña">
+        <button class="btn-login" id="iniciarSesion" type="submit" form="form-login">Iniciar Sesion</button>
+        <p>¿No tienes una Cuenta? <a href="#" id="btnCrearCuenta">Crear una Cuenta.</a></p>
+    </form>
+    <form class="form-registro" id="form-registro">
+        <div class="content">
+            <input class="inputs" type="text" name="fitst-name" placeholder="Nombre" autocomplete="off">
+            <input class="inputs" type="text" name="last-name" placeholder="Apellido" autocomplete="off">
+            <input class="inputs" type="text" name="name-user" placeholder="Nombre de Usuario" autocomplete="off">
+            <input class="inputs" type="password" name="password" placeholder="Contraseña">
+            <input class="inputs" type="password" name="repeatpassword" placeholder="Repita su Contraseña">
+            <input class="inputs" type="email" name="gmail" placeholder="Email" autocomplete="off">
+            <button class="btn-registro" type="submit"  id="Registro" form="form-registro">registrarse</button>
+            <p><input type="checkbox" name="tyc" id="">Al registrarte aceptas nuestros <a class="tyc" href="#">Terminos y condiciones</a></p>
+            <p>¿Ya tienes una Cuenta? <a href="#titulo" id="btnIniciarSesion">Inicia Sesion.</a></p>
+        </div>
+    </form>
+</div>
+<p class="warning">¡IMPORTANTE! este login solo es visual.</p>   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="js/dinamic.js"></script>
+</body>
+</html>
